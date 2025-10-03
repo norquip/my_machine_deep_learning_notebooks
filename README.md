@@ -5,7 +5,8 @@ This repository contains my explorations and hands-on practice notebooks in Mach
 - `notebooks/` — Jupyter notebooks with experiments and examples.
 
 ## Topic Covered so far
-- Gradient Descent in 1 dimension with numpy
-- TensorFlow basics and Gradient Descent in 2 dimensions  
+  * Gradien Descent with widgets:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/norquip/my_machine_deep_learning_notebooks/blob/main/GradientDescend.ipynb)
+    - Gradient Descent in 1 dimension with numpy
+    - TensorFlow basics and Gradient Descent in 2 dimensions  
 
 
