@@ -1,0 +1,11 @@
+# Data
+data/raw/
+data/extracted/
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
