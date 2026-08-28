@@ -25,9 +25,6 @@ the dimensions and indices of the quantities involved. The computational impleme
 The notebook covers the main steps involved in building and training a fully connected neural network:
 
 
-
-\- Data preprocessing
-
 \- Network architecture
 
 \- Forward propagation
@@ -43,6 +40,8 @@ The notebook covers the main steps involved in building and training a fully con
 \- Parameter updates
 
 \- Model training
+
+\- Validating the construction with gradient checking
 
 
 
