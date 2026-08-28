@@ -1,4 +1,4 @@
-# DNN From Scratch
+# Fully Conneted DNN From Scratch
 
 
 
