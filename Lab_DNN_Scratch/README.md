@@ -1,4 +1,4 @@
-\# DNN From Scratch
+# DNN From Scratch
 
 
 
@@ -18,7 +18,7 @@ the dimensions and indices of the quantities involved. The computational impleme
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -60,21 +60,18 @@ The notebook covers the main steps involved in building and training a fully con
 
 
 
-\## Repository Structure
 
 
+## Repository Structure
 
 ```text
-
-Lab\_DNN\_Scratch/
-
-│
-
+Lab_DNN_Scratch/
 ├── README.md
-
-│
-
 └── notebook/
+    └── Construction_Scratch__DNN.ipynb
+```
 
-&#x20;   └── Construction\_Scratch\_\_DNN.ipynb
+
+
+
 
