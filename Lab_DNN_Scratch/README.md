@@ -2,7 +2,7 @@
 
 
 
-A fully connected Deep Neural Network implemented from scratch using \*\*PyTorch tensors and tensor operations\*\*.
+A fully connected Deep Neural Network implemented from scratch using **PyTorch tensors and tensor operations**.
 
 
 ### 🔬 From Mathematic derivation  to Implementation
@@ -29,9 +29,6 @@ Derivation of forward and backward propagation, cost function, and gradients usi
 
 ### 🔢 Tensor implementation
 Explicit treatment of tensor dimensions, indices, and broadcasting in matrix and tensor notation.
-
-### ✅ Numerical validation
-Validation of the analytical gradients using finite-difference gradient checking.
 
 ### 🧠 Training
 Parameter updates and training of the fully connected neural network.
