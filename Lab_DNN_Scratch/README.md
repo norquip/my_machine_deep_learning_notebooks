@@ -46,15 +46,13 @@ The implementation uses PyTorch primarily for tensor operations rather than PyTo
 
 
 
-For a layer \\(l\\), the forward propagation is defined by
+For a layer $l$, the forward propagation is defined by
 
 
 
-\\\[
-
+$$
 Z^{\[l]} = W^{\[l]}A^{\[l-1]} + b^{\[l]},
-
-\\]
+$$
 
 
 
@@ -62,11 +60,9 @@ followed by the activation function
 
 
 
-\\\[
-
+$$
 A^{\[l]} = g^{\[l]}(Z^{\[l]}).
-
-\\]
+$$
 
 
 
