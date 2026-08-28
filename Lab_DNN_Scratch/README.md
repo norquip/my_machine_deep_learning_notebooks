@@ -15,16 +15,6 @@ The computational implementation then uses PyTorch primarily for tensor operatio
 Finally,  gradines  are numerically validated using finite-diffrnce gradient checking. 
 
 
-## What is implemented?
-
-| Component | Description |
-|---|---|
-| 🧮 Mathematical formulation | Forward and backward propagation, cost and gradients |
-| 🔢 Tensor notation | Dimensions, indices and broadcasting |
-| ⚙️ Implementation | PyTorch tensor operations |
-| ✅ Validation | Gradient checking using finite differences |
-| 🧠 Training | Parameter updates and model training |
-
 
 
 
