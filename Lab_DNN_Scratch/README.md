@@ -6,7 +6,15 @@ A fully connected Deep Neural Network implemented from scratch using \*\*PyTorch
 
 
 
-The project develops the neural network from its mathematical formulation to its computational implementation, with emphasis on tensor dimensions, index notation, forward propagation, backward propagation, and gradient computation.
+
+
+The project develops a fully connected neural network from its mathematical formulation to its computational implementation, with emphasis on tensor dimensions and index notation.
+The mathematical expressions for forward and backward propagation, as well as the cost function and gradient computation, are derived using tensor operations while explicitly tracking 
+the dimensions and indices of the quantities involved. The computational implementation then uses PyTorch primarily for tensor operations rather than PyTorch's high-level neural-network modules.
+
+
+
+
 
 
 
@@ -35,42 +43,6 @@ The notebook covers the main steps involved in building and training a fully con
 \- Parameter updates
 
 \- Model training
-
-
-
-The implementation uses PyTorch primarily for tensor operations rather than PyTorch's high-level neural-network modules.
-
-
-
-\## From Equations to Implementation
-
-
-
-For a layer $l$, the forward propagation is defined by
-
-
-
-$$
-Z^{\[l]} = W^{\[l]}A^{\[l-1]} + b^{\[l]},
-$$
-
-
-
-followed by the activation function
-
-
-
-$$
-A^{\[l]} = g^{\[l]}(Z^{\[l]}).
-$$
-
-
-
-The mathematical expressions are translated into tensor operations while explicitly tracking the dimensions and indices of the quantities involved.
-
-
-
-Backward propagation is derived using the chain rule and implemented through the corresponding gradients with respect to the model parameters and activations.
 
 
 
