@@ -45,7 +45,7 @@ The notebook covers the main steps involved in building and training a fully con
 
 
 
-\## Tools
+## Tools
 
 
 
