@@ -12,7 +12,7 @@ The mathematical expressions for forward and backward propagation, as well as th
 the dimensions and indices of the quantities involved. 
 Broadcasting is also redefined in terms of matrix and tensor notation to establish a consistent mathematical framework for the implementation.
 The computational implementation then uses PyTorch primarily for tensor operations rather than PyTorch's high-level neural-network modules.
-Finally,  gradines  are numerically validated using finite-diffrnce gradient checking. 
+Finally, the analytical gradients are validated numerically using finite-difference gradient checking.
 
 
 
