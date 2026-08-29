@@ -1,16 +1,11 @@
 # Fully Conneted DNN From Scratch
 
-
-
-A fully connected Deep Neural Network implemented from scratch using **PyTorch tensors and tensor operations**.
-
-
 ### 🔬 From Mathematical derivation  to Implementation
 
-The project develops a fully connected neural network from its mathematical formulation to its computational implementation from scratch, with emphasis on tensor dimensions and index notation.
+This project develops a fully connected neural network from its mathematical formulation to its computational implementation from scratch. 
 The mathematical expressions for forward and backward propagation, as well as the cost function and gradient computation, are derived using tensor operations while explicitly tracking 
 the dimensions and indices of the quantities involved. 
-Broadcasting is also redefined in terms of matrix and tensor notation to establish a consistent mathematical framework for the implementation.
+Broadcasting is formulated as the matrix product of the bias and a vector of ones, which is then expressed explicitly in terms of tensor indices.
 The computational implementation then uses PyTorch primarily for tensor operations rather than PyTorch's high-level neural-network modules.
 Finally, the analytical gradients are validated numerically using finite-difference gradient checking.
 
