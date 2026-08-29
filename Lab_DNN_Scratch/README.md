@@ -6,8 +6,9 @@ This project develops a fully connected neural network from its mathematical for
 The mathematical expressions for forward and backward propagation, as well as the cost function and gradient computation, are derived using tensor operations while explicitly tracking 
 the dimensions and indices of the quantities involved. 
 Broadcasting is formulated as the matrix product of the bias and a vector of ones, which is then expressed explicitly in terms of tensor indices.
-The computational implementation then uses PyTorch primarily for tensor operations rather than PyTorch's high-level neural-network modules.
-Finally, the analytical gradients are validated numerically using finite-difference gradient checking.
+The computational implementation then uses PyTorch primarily for tensor operations rather than PyTorch's high-level neural-network modules.  I use PyTorch broadcasting  for the bias expansion, 
+as it provides a more efficient implementation.
+Finally, gradient implementation is checked numerically using finite-difference gradient checking.
 
 
 
@@ -23,7 +24,7 @@ The notebook covers the main steps involved in building and training a fully con
 Derivation of forward and backward propagation, cost function, and gradients using tensor notation.
 
 ### 🔢 Tensor implementation
-Explicit treatment of tensor dimensions, indices, and broadcasting in matrix and tensor notation.
+Explicit treatment of tensor dimensions, indices, and broadcasting.
 
 ### 🧠 Training
 Parameter updates and training of the fully connected neural network.
