@@ -76,7 +76,7 @@ Investigation of how numerical overflow and underflow affect the computation of 
 
 Analysis of the numerical results to understand how finite precision influences the behavior of the implemented neural network.
 
-📓 **Notebook:** [Numerical_Stability_Experiemts](./Numerical_Stability_Experiments.ipynb)
+📓 **Notebook:** [Numerical_Stability_Experiments](./Numerical_Stability_Experiments.ipynb)
 
 
 
