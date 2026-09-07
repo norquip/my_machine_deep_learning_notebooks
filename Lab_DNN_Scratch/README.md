@@ -1,6 +1,6 @@
 # Fully Conneted DNN From Scratch
 
-### 🔬 Part I: From Mathematical Derivation  to Implementation
+## 🔬 Part I: From Mathematical Derivation  to Implementation
 
 This project develops a fully connected neural network from its mathematical formulation to its computational implementation from scratch. 
 The mathematical expressions for forward and backward propagation, as well as the cost function and gradient computation, are derived using tensor operations while explicitly tracking 
@@ -14,23 +14,25 @@ Finally, gradient implementation is checked numerically using finite-difference 
 
 
 
-## Project Overview
+### Project Overview
 
 
 
 The notebook covers the main steps involved in building and training a fully connected neural network:
 
-### 🧮 Mathematical formulation
+#### 🧮 Mathematical formulation
 Derivation of forward and backward propagation, cost function, and gradients using tensor notation.
 
-### 🔢 Tensor implementation
+#### 🔢 Tensor implementation
 Explicit treatment of tensor dimensions, indices, and broadcasting.
 
-### 🧠 Training
+#### 🧠 Training
 Parameter updates and training of the fully connected neural network.
 
-### 🔍 Numerical validation
+#### 🔍 Numerical validation
 Validation of the analytical gradients using finite-difference gradient checking.
+
+📓 **Notebook:** [Construction_Scratch_DNN](./Construction_Scratch_DNN.ipynb)
 
 
 
@@ -40,7 +42,7 @@ Validation of the analytical gradients using finite-difference gradient checking
 
 
 
-### 🔬 Part II: Understanding Overflow and Underflow: Their Effects on te Cost Function
+## 🔬 Part II: Understanding Overflow and Underflow: Their Effects on te Cost Function
 
 This part extends the fully connected neural network developed in Part I to investigate numerical overflow and underflow in floating-point computations.
 
@@ -50,19 +52,19 @@ The experiments focus on how finite floating-point precision affects the numeric
 
 The results provide a numerical perspective on the difference between the mathematical formulation of a neural network and its implementation using finite-precision arithmetic.
 
-## Project Overview
+### Project Overview
 
 The notebook covers the following numerical experiments:
 
-### 🔢 Floating-point precision
+#### 🔢 Floating-point precision
 
 Investigation of the limitations imposed by finite-precision floating-point representation.
 
-### 📈 Numerical overflow
+#### 📈 Numerical overflow
 
 Analysis of the behavior of exponential computations when intermediate values become too large to be represented by the floating-point format.
 
-### 📉 Numerical underflow
+#### 📉 Numerical underflow
 
 Analysis of the behavior of exponential computations when positive values become smaller than the smallest positive value representable by the floating-point format.
 
@@ -70,9 +72,11 @@ Analysis of the behavior of exponential computations when positive values become
 
 Investigation of how numerical overflow and underflow affect the computation of the neural network's cost function.
 
-### 🔍 Numerical interpretation
+#### 🔍 Numerical interpretation
 
 Analysis of the numerical results to understand how finite precision influences the behavior of the implemented neural network.
+
+📓 **Notebook:** [Numerical_Stability_Experiemts](./Numerical_Stability_Experiments.ipynb)
 
 
 
